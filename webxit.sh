@@ -1,5 +1,5 @@
 #!/system/bin/sh
-if [ "$(basename "$0")" != "arm64" ]; then
+if [ "$(basename "$0")" != "plugin.dex" ]; then
 	exit 1
 fi
 
