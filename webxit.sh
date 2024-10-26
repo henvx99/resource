@@ -12,9 +12,6 @@ RemoveListerOne() {
 }
 
 sensivityOne() {
-    am force-stop com.dts.freefireth
-    am force-stop com.dts.freefiremax
-    sleep 0.8
     wm size 1799x3998
     wm density reset
 }
