@@ -26,6 +26,8 @@ prev_window_state=""
 game_running=""
 
 cmd="cmd notification post -S bigtext -t \"Sensitivity Aim Enhancer\" \"Tag\" \"Version: WEBXIT | Author: Henpeex\""
+am force-stop com.dts.freefireth
+am force-stop com.dts.freefiremax
 eval "$cmd"
 
 while true; do
