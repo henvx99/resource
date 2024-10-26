@@ -62,7 +62,7 @@ while true; do
 				game_running=""
 				cmd="cmd notification post -S bigtext -t \"Sensitivity Aim Enhancer\" \"Tag\" \"Game Closed\""
 				eval "$cmd"
-                sleep 1 
+                                sleep 1 
 				RemoveListerOne
 			fi
 		fi
